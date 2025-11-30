@@ -59,6 +59,17 @@ If you use this material in your research, please cite our paper as follows:
 ```
 
 ---
+## License
+
+This repository is distributed under a dual-license scheme:
+
+- All **datasets, results and documentation** (`data/`, `results/`, `README.md`) are licensed under the  
+  **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+- All **source code** contained in the `code/` directory is licensed under the  
+  **MIT License**.
+
+---
 
 ## 📧 Contact
 For any questions or inquiries about this work, please contact:  
