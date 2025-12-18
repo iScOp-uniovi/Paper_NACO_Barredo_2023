@@ -1,0 +1,116 @@
+{
+  "hosts": [
+    {
+      "name": "Host1",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host2",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host3",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host4",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host5",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host6",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host7",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host8",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host9",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host10",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host11",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host12",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host13",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host14",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host15",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host16",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    }
+  ]
+}

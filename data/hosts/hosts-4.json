@@ -1,0 +1,32 @@
+{
+  "hosts": [
+    {
+      "name": "Host1",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host2",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host3",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "Host4",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    }
+  ]
+}

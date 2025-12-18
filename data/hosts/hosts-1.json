@@ -1,0 +1,11 @@
+{
+  "hosts": [
+    {
+      "name": "Host1",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    }
+  ]
+}
