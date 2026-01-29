@@ -15,14 +15,20 @@ This work extends a disk-network-computing (DNC) evaluation model that explicitl
 
 ## Repository Content
 
-- `data/` → Dataset used in the experiments and the scripts and configuration files needed to repeat them.
 - `code/` → Implementation of the proposed algorithm(s) and hybrid approaches.
+- `data/` → Dataset used in the experiments and the scripts and configuration files needed to repeat them.
 - `results/` → Outcomes obtained after running the experiments.
 - `README.md` → This file containing repository information.
 
 * * *
 
 ## Datasets and Code
+
+The authoritative and citable archive of the data associated with this work
+(instances, configurations and experimental results, including CSV exports and documentation)
+is available in the University of Oviedo Institutional Repository (RUO):
+
+https://hdl.handle.net/10651/81943
 
 The datasets and code provided in this repository aim to facilitate the reproducibility of the experiments presented in the paper.  
 Please refer to the instructions in each subdirectory for proper usage.
