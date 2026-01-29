@@ -4,8 +4,7 @@ This repository contains supplementary material for the paper:
 > "**Precise makespan optimization via hybrid genetic algorithm for scientific workflow scheduling problem**"  
 > Published in **Natural Computing (NACO)**  
 > Authors: Pablo Barredo, Jorge Puente  
-> DOI: [10.1007/s11047-023-09950-5](https://doi.org/10.1007/s11047-023-09950-5)  
-> URI: https://hdl.handle.net/10651/70610  
+> Paper (RUO): https://hdl.handle.net/10651/70610  
 
 Task scheduling in scientific workflows is an NP-hard problem due to the large number of interdependent tasks, the data transfers between them, and the diversity of possible execution infrastructures in cloud environments. Makespan is one of the main optimisation objectives, but its estimation must also be reliable with respect to the actual execution time to avoid unexpected costs in pay-per-use scenarios.
 
@@ -15,25 +14,42 @@ This work extends a disk-network-computing (DNC) evaluation model that explicitl
 
 ## Repository Content
 
+This repository provides the software prototype and lightweight reference material
+associated with the experimental evaluation reported in the paper.
+
 - `code/` → Implementation of the proposed algorithm(s) and hybrid approaches.
 - `data/` → Dataset used in the experiments and the scripts and configuration files needed to repeat them.
 - `results/` → Outcomes obtained after running the experiments.
-- `README.md` → This file containing repository information.
 
 * * *
 
-## Datasets and Code
+## Data availability (RUO)
 
-The authoritative and citable archive of the data associated with this work
-(instances, configurations and experimental results, including CSV exports and documentation)
-is available in the University of Oviedo Institutional Repository (RUO):
+The **authoritative and citable archive** of the data associated with this work
+(instances, configurations and experimental results, including interoperable CSV exports
+and detailed documentation) is available in the University of Oviedo Institutional
+Repository (RUO):
 
 https://hdl.handle.net/10651/81943
 
-The datasets and code provided in this repository aim to facilitate the reproducibility of the experiments presented in the paper.  
-Please refer to the instructions in each subdirectory for proper usage.
+The materials included in this GitHub repository are provided to facilitate
+understanding and computational reproducibility, but the RUO dataset should be considered
+the reference version for reuse and citation.
 
-* * *
+---
+
+## Datasets and code
+
+The datasets and code provided in this repository aim to facilitate the understanding
+and reproducibility of the experiments presented in the paper.  
+The authoritative and citable archive of the data and experimental results is the dataset
+deposited in RUO (see link above).
+
+The C++ research prototype implementing the genetic and hybrid algorithms evaluated in the
+paper is available under the `code/ag-workflow/` directory. Detailed build and usage
+instructions are provided in its corresponding README file.
+
+---
 
 ## Using the Material
 
@@ -67,17 +83,19 @@ If you use this material in your research, please cite our paper as follows:
 ---
 ## License
 
-This repository is distributed under a dual-license scheme:
+- All **datasets and experimental results** associated with this work are released under
+  the **Open Data Commons Attribution License (ODC-By)**, as specified in the dataset record
+  in RUO.
 
-- All **datasets, results and documentation** (`data/`, `results/`, `README.md`) are licensed under the  
+- Documentation files (including this README) are released under the  
   **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
-- All **source code** contained in the `code/` directory is licensed under the  
-  **MIT License**.
+- All **source code** contained in the `code/` directory is released under the  
+  **MIT License** (see `code/ag-workflow/LICENSE`).
 
 ---
 
 ## 📧 Contact
-For any questions or inquiries about this work, please contact:  
+For any questions or inquiries about this work, please contact the corresponding author:
 ✉️ **[puente@uniovi.es](mailto:puente@uniovi.es)**
 
