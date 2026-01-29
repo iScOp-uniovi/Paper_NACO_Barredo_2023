@@ -1,0 +1,40 @@
+// Problem file (workflow instance, JSON)
+code/ag-workflow/data/heftmatic-workflow.json
+// Hosts/infrastructure file (JSON)
+code/ag-workflow/data/hosts.json
+// Crossover probability [0,1]
+0.90
+// Mutation probability [0,1]
+0.20
+// Population size
+50
+// Number of generations
+50
+// Number of runs (independent trials)
+1
+// Selection operator (Torneo)
+Torneo
+// Crossover operator (GOX|GPX|GYT|JOX|PPX)
+GPX
+// Mutation operator (Simple1|Simple2|Aleatorio)
+Aleatorio
+// Fitness (ORDEN|ORDENPLUS|OTRO)
+ORDENPLUS
+// nCruce (only used if crossover=GYT; otherwise keep this comment line and the value line)
+2
+// Random seed type (0=aleatoria, 1=fija)
+1
+// Scaling type and value: (0=cte, 1=mattfeld) <value>
+0 0
+// Initial population (0 = none). Keep the next comment line; if not 0, put a filename on the next line.
+0
+// (reserved / keep structure)
+0
+// Output file (0 = default resultados.txt)
+0
+// Comment string
+Smoke test configuration for ag-workflow (NACO 2023)
+// Local search percentage and iteration interval (perctBL niterBL)
+0 0
+// Time limit in seconds (0 = no limit)
+0

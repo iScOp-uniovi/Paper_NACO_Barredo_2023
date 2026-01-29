@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "ag-workflow: C++ Genetic Algorithm prototype for scientific workflow scheduling (NACO 2023)"
+message: "If you use this software, please cite the associated paper and (when available) the RUO dataset. Dataset handle: https://hdl.handle.net/10651/81943."
+type: software
+authors:
+  - family-names: Barredo Gil
+    given-names: Pablo
+  - family-names: Puente
+    given-names: Jorge
+repository-code: "https://github.com/iScOp-uniovi/Paper_NACO_Barredo_2023"
+preferred-citation:
+  type: article
+  title: "Precise makespan optimization via hybrid genetic algorithm for scientific workflow scheduling problem"
+  journal: "Natural Computing"
+  year: 2023
+  url: "https://hdl.handle.net/10651/70610"

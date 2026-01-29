@@ -1,0 +1,25 @@
+{
+  "machines": [
+    {
+      "name": "HostA",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "HostB",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    },
+    {
+      "name": "HostC",
+      "cores": "1",
+      "cpu_speed": "441Gf",
+      "disk_speed": "115MBps",
+      "network_speed": "1Gbps"
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+    "name": "Heft-example-trace",
+    "description": "Trace for HEFT test",
+    "createdAt": "2020-11-20T17:34:16.563673",
+    "schemaVersion": "1.0",
+    "author": {
+        "name": "pablo",
+        "email": "uo237136@uniovi.es"
+    },
+    "wms": {
+        "name": "WorkflowHub",
+        "version": "0.3",
+        "url": "https://workflowhub.readthedocs.io/en/v0.3/"
+    },
+    "workflow": {
+        "executedAt": "20201120T093416-0800",
+        "makespan": 0.0,
+        "machines": [
+            {
+                "nodeName": "fake-1",
+                "system": "linux",
+                "cpu": {
+                    "count": 1,
+                    "speed": 1
+                }
+            }
+        ],
+        "jobs": [
+            {
+                "name": "Layer1_000001",
+                "type": "compute",
+                "runtime": 13,
+                "parents": [],
+                "children": [
+                    "Layer2_000002",
+                    "Layer2_000003",
+                    "Layer2_000004",
+                    "Layer2_000005",
+                    "Layer2_000006"
+                ],
+                "files": [
+                    {
+                        "link": "output",
+                        "name": "file_task1_task2.txt",
+                        "size": 18000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task1_task3.txt",
+                        "size": 12000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task1_task4.txt",
+                        "size": 9000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task1_task5.txt",
+                        "size": 11000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task1_task6.txt",
+                        "size": 14000000
+                    }
+                ]
+            },
+            {
+                "name": "Layer2_000002",
+                "type": "compute",
+                "runtime": 16.667,
+                "parents": [
+                    "Layer1_000001"
+                ],
+                "children": [
+                    "Layer3_000008",
+                    "Layer3_000009"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task1_task2.txt",
+                        "size": 18000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task2_task8.txt",
+                        "size": 19000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task2_task9.txt",
+                        "size": 16000000
+                    }
+                ]
+            },
+            {
+                "name": "Layer2_000003",
+                "type": "compute",
+                "runtime": 14.333,
+                "parents": [
+                    "Layer1_000001"
+                ],
+                "children": [
+                    "Layer3_000007"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task1_task3.txt",
+                        "size": 12000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task3_task7.txt",
+                        "size": 23000000
+                    }
+                ]
+            },
+            {
+                "name": "Layer2_000004",
+                "type": "compute",
+                "runtime": 12.667,
+                "parents": [
+                    "Layer1_000001"
+                ],
+                "children": [
+                    "Layer3_000008",
+                    "Layer3_000009"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task1_task4.txt",
+                        "size": 9000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task4_task8.txt",
+                        "size": 27000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task4_task9.txt",
+                        "size": 23000000
+                    }
+                ]
+            },
+            {
+                "name": "Layer2_000005",
+                "type": "compute",
+                "runtime": 11.667,
+                "parents": [
+                    "Layer1_000001"
+                ],
+                "children": [
+                    "Layer3_000009"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task1_task5.txt",
+                        "size": 11000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task5_task9.txt",
+                        "size": 13000000
+                    }
+                ]
+            },
+            {
+                "name": "Layer2_000006",
+                "type": "compute",
+                "runtime": 12.667,
+                "parents": [
+                    "Layer1_000001"
+                ],
+                "children": [
+                    "Layer3_000008"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task1_task6.txt",
+                        "size": 14000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task6_task8.txt",
+                        "size": 15000000
+                    }
+                ]
+            },
+            {
+                "name": "Layer3_000007",
+                "type": "compute",
+                "runtime": 11,
+                "parents": [
+                    "Layer2_000003"
+                ],
+                "children": [
+                    "Layer4_000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task3_task7.txt",
+                        "size": 23000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task7_task10.txt",
+                        "size": 17000000
+                    }
+                ]
+            },
+            {
+                "name": "Layer3_000008",
+                "type": "compute",
+                "runtime": 10,
+                "parents": [
+                    "Layer2_000002",
+                    "Layer2_000004",
+                    "Layer2_000006"
+                ],
+                "children": [
+                    "Layer4_000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task2_task8.txt",
+                        "size": 19000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task4_task8.txt",
+                        "size": 27000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task6_task8.txt",
+                        "size": 15000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task8_task10.txt",
+                        "size": 11000000
+                    }
+                ]
+            },
+            {
+                "name": "Layer3_000009",
+                "type": "compute",
+                "runtime": 16.667,
+                "parents": [
+                    "Layer2_000002",
+                    "Layer2_000004",
+                    "Layer2_000005"
+                ],
+                "children": [
+                    "Layer4_000010"
+                ],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task2_task9.txt",
+                        "size": 16000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task4_task9.txt",
+                        "size": 23000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task5_task9.txt",
+                        "size": 13000000
+                    },
+                    {
+                        "link": "output",
+                        "name": "file_task9_task10.txt",
+                        "size": 13000000
+                    }
+                ]
+            },
+            {
+                "name": "Layer4_000010",
+                "type": "compute",
+                "runtime": 14.667,
+                "parents": [
+                    "Layer3_000007",
+                    "Layer3_000008",
+                    "Layer3_000009"
+                ],
+                "children": [],
+                "files": [
+                    {
+                        "link": "input",
+                        "name": "file_task7_task10.txt",
+                        "size": 17000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task8_task10.txt",
+                        "size": 11000000
+                    },
+                    {
+                        "link": "input",
+                        "name": "file_task9_task10.txt",
+                        "size": 13000000
+                    }
+                ]
+            }
+        ]
+    }
+}
