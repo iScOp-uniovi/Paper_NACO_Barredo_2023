@@ -49,5 +49,3 @@ Please build using an out-of-source `build/` folder.
 This prototype is linked to the authoritative open dataset archived in RUO:
 
 - Dataset handle: https://hdl.handle.net/10651/81943
-
-- Dataset handle: https://hdl.handle.net/10651/81943
